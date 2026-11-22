@@ -25,7 +25,7 @@ brew install --cask paveler/tap/agent-monitor
 
 ---
 
-> **Windows:** there is a port in [`windows/`](windows/README.md): the same limits and waiting list as a tray app with a desktop widget.
+> **Windows:** there is a port in [`windows/`](windows/README.md) by [@SmileXYZ](https://github.com/SmileXYZ): the same limits and waiting list as a tray app with a desktop widget. Download it from [Releases](https://github.com/paveler/agent-monitor/releases?q=win-v) (tags `win-v*`).
 
 ## Why
 

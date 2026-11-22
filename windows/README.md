@@ -24,7 +24,11 @@ A port of the macOS app in this repository. Windows has no desktop widgets like 
 
 The large view adds a pace mark on each bar (how much of the window has passed), a forecast ("at this pace it lasts 1h 48m") and a chart of the 5-hour limit over the last 24 hours. Samples for the chart are taken every 5 minutes and kept for 7 days.
 
-## Build and run
+## Download
+
+Grab `AgentMonitor-<version>-setup.exe` (installer, per user, no admin rights) or `AgentMonitor-<version>-portable.exe` (a single exe) from [Releases](https://github.com/paveler/agent-monitor/releases?q=win-v) — the Windows ones are tagged `win-v*`. The build isn't code-signed, so SmartScreen warns on first launch: **More info → Run anyway**. Then follow steps 1–3 below.
+
+## Build from source
 
 Needs Node.js, Rust (MSVC toolchain) and WebView2 (already part of Windows 11).
 

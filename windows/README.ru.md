@@ -20,7 +20,11 @@
 
 Настройки и положение окна хранятся в `%LOCALAPPDATA%\AgentMonitor\settings.json`.
 
-## Сборка и запуск
+## Скачать
+
+`AgentMonitor-<версия>-setup.exe` (установщик, ставится в профиль пользователя, без прав админа) или `AgentMonitor-<версия>-portable.exe` (один exe) — в [Releases](https://github.com/paveler/agent-monitor/releases?q=win-v), виндовые релизы с тегом `win-v*`. Сборка не подписана, поэтому SmartScreen при первом запуске предупредит: **Подробнее → Выполнить в любом случае**. Дальше — шаги ниже.
+
+## Сборка из исходников
 
 Нужны Node.js, Rust (MSVC) и WebView2 (в Windows 11 уже есть).
 
