@@ -5,12 +5,13 @@
 <h1 align="center">Agent Monitor</h1>
 
 <p align="center">
-  Native macOS desktop widgets for <b>Claude Code</b> and <b>Codex</b>:<br>
+  Desktop widgets for <b>Claude Code</b> and <b>Codex</b> on macOS and Windows:<br>
   usage limits (5-hour and weekly) and which agents are <b>waiting on you</b>.
 </p>
 
 <p align="center">
   <img alt="macOS 14+" src="https://img.shields.io/badge/macOS-14%2B-black?logo=apple">
+  <img alt="Windows 10/11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows">
   <img alt="Swift" src="https://img.shields.io/badge/Swift-SwiftUI%20%2B%20WidgetKit-F05138?logo=swift&logoColor=white">
   <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue">
 </p>
@@ -19,13 +20,15 @@
   <img src="docs/demo.gif" alt="Agents show up in the widget when they need you; click a row to jump to that session" width="760">
 </p>
 
+**macOS:**
+
 ```bash
 brew install --cask paveler/tap/agent-monitor
 ```
 
----
+**Windows:** download `AgentMonitor-<version>-setup.exe` from [Releases](https://github.com/paveler/agent-monitor/releases?q=win-v) (tags `win-v*`). It's a native port by [@SmileXYZ](https://github.com/SmileXYZ): the same limits and waiting list as a desktop widget with a tray icon. Details in [`windows/README.md`](windows/README.md).
 
-> **Windows:** there is a port in [`windows/`](windows/README.md) by [@SmileXYZ](https://github.com/SmileXYZ): the same limits and waiting list as a tray app with a desktop widget. Download it from [Releases](https://github.com/paveler/agent-monitor/releases?q=win-v) (tags `win-v*`).
+---
 
 ## Why
 
@@ -65,6 +68,8 @@ And when you run several agents at once, they quietly stall: one wants approval 
 - **Zero config.** Reuses the logins you already have in Claude Code and Codex CLI.
 
 ## Install
+
+This section and the ones below describe the macOS app. For Windows, see [`windows/README.md`](windows/README.md).
 
 **Requirements:** macOS 14 Sonoma or later, and Claude Code and/or Codex CLI signed in on this Mac.
 
