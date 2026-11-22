@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent Monitor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="card">
+    <button id="fresh" title="Refresh"><span id="fresh-text"></span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.2 8a5.2 5.2 0 1 1-1.6-3.75M13.4 2.2v3h-3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <section id="usage">
+      <div class="agent" id="claude"></div>
+      <div class="divider"></div>
+      <div class="agent" id="codex"></div>
+    </section>
+    <section id="waiting"></section>
+    <div id="notice" hidden></div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -25,6 +25,8 @@ brew install --cask paveler/tap/agent-monitor
 
 ---
 
+> **Windows:** there is a port in [`windows/`](windows/README.md): the same limits and waiting list as a tray app with a desktop widget.
+
 ## Why
 
 Claude Code and Codex both meter you on two windows: a rolling **5-hour** limit and a **weekly** one. Hitting either mid-task is annoying, and checking means running a slash command or opening a settings page.
@@ -192,6 +194,7 @@ App/      menu bar app: fetching, hooks handler and installer, menu
 Widget/   WidgetKit extensions: timeline providers and SwiftUI views
 Shared/   models, snapshot and session stores, app icon assets
 tools/    icon generator and README preview renderer
+windows/  Windows port: a Tauri tray app with a desktop widget (see windows/README.md)
 ```
 
 - The project is described in [`project.yml`](project.yml) ([XcodeGen](https://github.com/yonaskolb/XcodeGen)). The generated `AgentMonitor.xcodeproj` is committed, so XcodeGen is optional.
